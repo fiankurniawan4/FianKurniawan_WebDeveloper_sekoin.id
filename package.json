@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "npx tailwindcss -i ./common/web/css/tailwind.css -o ./common/web/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@composer-asset/yii-tools--tailwind-asset": "file:./vendor/foxy/composer-asset/yii-tools/tailwind-asset",
+    "daisyui": "^4.12.2"
+  }
+}

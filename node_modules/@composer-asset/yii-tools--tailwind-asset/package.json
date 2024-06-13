@@ -1,0 +1,8 @@
+{
+    "name": "@composer-asset/yii-tools--tailwind-asset",
+    "version": "1.0.0",
+    "dependencies": {
+        "tailwindcss": "^3.3"
+    },
+    "license": "mit"
+}

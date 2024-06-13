@@ -1,0 +1,7 @@
+<?php
+Yii::setAlias('@backend', dirname(__DIR__));
+Yii::setAlias('@frontend', dirname(dirname(__DIR__)) . '/frontend');
+Yii::setAlias('@common', dirname(dirname(__DIR__)) . '/common');
+Yii::setAlias('@console', dirname(dirname(__DIR__)) . '/console');
+Yii::setAlias('@tailwind', dirname(__DIR__));
+Yii::setAlias('@uploads', dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'common' . DIRECTORY_SEPARATOR . 'uploads');
